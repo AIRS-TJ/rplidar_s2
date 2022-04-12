@@ -6,7 +6,7 @@
 
 然后在src下
 
-	$ git clone https://github.com/AIRS-TJ/pepperl_fuchs.git
+	$ git clone https://github.com/AIRS-TJ/rplidar_s2.git
 	
 再编译
 
