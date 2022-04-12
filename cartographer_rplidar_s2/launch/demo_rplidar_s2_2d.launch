@@ -1,0 +1,9 @@
+<launch>
+  <param name="/use_sim_time" value="true" />
+
+  <include file="$(find cartographer_rplidar_s2)/launch/rplidar_s2_2d.launch" />
+
+  <node name="rviz" pkg="rviz" type="rviz" required="true"
+      args="-d $(find cartographer_rplidar_s2)/configuration_files/rplidar_s2_2d.rviz" />
+      
+</launch>
